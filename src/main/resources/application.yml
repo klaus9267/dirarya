@@ -1,0 +1,10 @@
+#spring.application.name=dirarya
+spring:
+  output:
+    ansi:
+      enabled: always
+  profiles:
+    active: db
+  jackson:
+    serialization:
+      indent-output: true
